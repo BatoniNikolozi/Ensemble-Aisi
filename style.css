@@ -1,0 +1,42 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color:#a81b1a;
+}
+
+nav {
+    background-color: #ffffff;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 100px;             
+    display: flex;
+    align-items: center;       
+    justify-content: space-between; 
+    padding: 0 20px;
+    z-index: 1000;
+}
+.LeftButtons{
+    padding:5px;
+    height:fit-content;
+    width:auto;
+    align-items:center;
+    justify-content:space-between;
+}
+
+.RightButtons{
+    padding:5px;
+    height:fit-content;
+    width:auto;
+    align-items:center;
+    justify-content:space-between;
+}
+
+#aisipic {
+    width: 200px;              
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: relative;
+    top: 40px;                            
+}
